@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	height: 450px;
+	border: 1px solid transparent;
+	margin: auto;
+	position: relative;
+	background-color: rgb(51,51,51);
+}
+
+.bar-white {
+	width: 700px;
+	height: 5px;
+	background-color: rgb(173,173,173);
+	margin-top: -6px;
+}
+.bar-crimson {
+	width: 0;
+	height: 30px;
+	background-color: crimson;
+}
+
+/*控制板的布局*/
+.control {
+	width: 700px;
+	height: 45px;
+	line-height: 45px;
+	background-color: rgb(51,51,51);
+}
+.control span{
+	width: 15px;
+	height: 15px;
+	color: white;
+	font-size: 13px;
+	font-weight: 100;
+	margin-left: 20px;
+	padding: 5px;
+	border: 1px solid transparent;
+}
+/*音量控制条*/
+.volume-bar-silver{
+	width: 120px;
+	height: 4px;
+	background-color: rgb(173,173,173);
+	display: inline-block;
+	border-radius: 5px;
+}
+.volume-bar-crimson{
+	width: 120px;
+	height: 4px;
+	background-color: crimson;
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+}
+/*音量按钮  音量条  控屏按钮位置布局*/
+.container .volume{
+	margin-left: 45%;
+}
+.container .resize{
+	padding: 0;
+	padding-left: 15px;
+	border-left: 1px solid rgb(173,173,173);
+	color: rgb(173,173,173);
+}
+/*侧面视频列表*/
+.video-list{
+	width: 299px;
+	height: 98.7%;
+	background-color: rgb(34,34,34);
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+ul{
+	list-style-type: none;
+	padding: 15px;
+	color: rgb(173,173,173);
+	font-size: 13px;
+}
+li{
+	line-height: 40px;
+}
+li span{
+	float: right;
+}
